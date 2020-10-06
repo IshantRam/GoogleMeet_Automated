@@ -103,7 +103,7 @@ def sign_in(meetingcode, Attendence):
     # Joining The Meeting
     pyautogui.click(983, 440, button='left')
     pyautogui.click(1055, 420, button='left')
-    time.sleep(10)
+    time.sleep(120)
 
     # Giving Attendence
     pyautogui.click(1153, 94, button='left')
